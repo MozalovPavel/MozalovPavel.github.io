@@ -3,10 +3,12 @@
     <head>
         <title>Empty project</title>
         <meta charset="utf-8">
-        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" />
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
     </head>
     <body>
-        <div id="container"></div>
+        <div style="height: 100vh; width: 100vw;">
+            <div id="container"></div>
+        </div>
         <script src="./dist/bundle.js"></script>
     </body>
 </html>
