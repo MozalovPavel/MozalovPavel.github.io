@@ -55,4 +55,8 @@ interface ITurnstile {
 
 declare global {
   const turnstile: ITurnstile;
+
+  interface Window {
+    onloadTurnstileCallback: (callback: () => void) => void;
+  }
 }
