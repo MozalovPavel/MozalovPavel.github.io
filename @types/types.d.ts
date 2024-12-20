@@ -44,5 +44,6 @@ declare global {
 
   interface Window {
     onloadTurnstileCallback: (callback: () => void) => void;
+    ready: (callback: () => void) => void;
   }
 }

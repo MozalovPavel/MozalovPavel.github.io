@@ -4,7 +4,7 @@ function handleError () {
   console.log('ERROR')
 }
 
-window.onloadTurnstileCallback = function () {
+window.ready = function () {
   turnstile.render("#container", {
     sitekey: "0x4AAAAAAA3GsJWym_dVagkx",
     callback: function (token: string) {

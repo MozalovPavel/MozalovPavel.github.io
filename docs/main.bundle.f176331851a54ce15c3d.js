@@ -1,0 +1,1 @@
+(()=>{"use strict";function c(){console.log("ERROR")}window.ready=function(){turnstile.render("#container",{sitekey:"0x4AAAAAAA3GsJWym_dVagkx",callback:function(c){console.log("Challenge Success ".concat(c))},language:"en",size:"compact","expired-callback":c,"error-callback":c})}})();
