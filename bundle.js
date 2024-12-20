@@ -1,1 +1,0 @@
-(()=>{"use strict";turnstile.ready((function(){turnstile.render("#container",{sitekey:"0x4AAAAAAA3GsJWym_dVagkx",callback:function(e){console.log("Challenge Success ".concat(e))}})}))})();
